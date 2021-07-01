@@ -1,0 +1,169 @@
+@charset "UTF-8";
+.body, html {
+  font-family: 'Playfair Display', serif; }
+
+.header {
+  background-image: url(../img/bgc.png);
+  height: 960px; }
+
+.nav-bar {
+  width: 1760px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between; }
+  .nav-bar-logo {
+    margin-top: 30px; }
+  .nav-bar-list {
+    list-style-type: none;
+    margin-top: 35px;
+    display: flex;
+    font-size: 20px; }
+    .nav-bar-list-items {
+      margin-left: 56px; }
+    .nav-bar-list-links {
+      color: #FFFFFF;
+      font-weight: 400;
+      border-bottom: 2px solid transparent;
+      transition: 0.2s; }
+      .nav-bar-list-links:hover {
+        border-bottom: 2px solid white;
+        cursor: pointer; }
+      .nav-bar-list-links-itemss {
+        margin-top: 270px; }
+
+.nav-bar-button {
+  margin-top: 25px; }
+  .nav-bar-button-no-div {
+    width: 183px;
+    height: 44px;
+    border-radius: 50px;
+    border: 0;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    color: white; }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+  margin: 0 auto; }
+  .container-text {
+    padding-top: 170px; }
+    .container-text h1 {
+      font-weight: 700;
+      font-size: 64px;
+      color: #FFFFFF;
+      width: 800px;
+      line-height: 140%; }
+  .container-block {
+    width: 500px;
+    height: 110px; }
+    .container-block-list {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 0; }
+      .container-block-list-item {
+        width: 100px;
+        height: 110px;
+        background-color: #121212;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px; }
+        .container-block-list-item-num {
+          margin-top: 25px;
+          text-align: center;
+          font-weight: 700;
+          font-size: 36px;
+          color: white;
+          font-family: 'Roboto', sans-serif; }
+        .container-block-list-item-wor {
+          text-align: center;
+          font-weight: 400;
+          font-size: 16px;
+          color: white;
+          font-family: 'Roboto', sans-serif; }
+
+.about {
+  background-color: #121212;
+  height: 130px; }
+  .about-button {
+    margin-left: 50px;
+    margin-top: 43px;
+    width: 169px;
+    height: 44px;
+    border-radius: 50px;
+    border: 0;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    font-size: 16px;
+    font-weight: 700;
+    color: white; }
+
+.students {
+  margin-left: 80px;
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  width: 250px; }
+  .students-all {
+    display: flex;
+    justify-content: space-between; }
+    .students-all-wor {
+      color: #727272;
+      font-size: 16px;
+      font-weight: 400; }
+    .students-all-num {
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      /* первый див*/ }
+  .students-finished {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between; }
+    .students-finished-wor {
+      color: #727272;
+      font-size: 16px;
+      font-weight: 400; }
+    .students-finished-num {
+      margin-left: 20px;
+      color: white;
+      font-size: 16px;
+      font-weight: 700;
+      /* второй див*/ }
+
+.poloska {
+  height: 6px;
+  width: 630px;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+  margin-left: 80px;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center; }
+  .poloska-white {
+    width: 240px;
+    height: 6px;
+    background-color: white;
+    margin-top: 93px;
+    margin-left: 124px; }
+  .poloska-text {
+    height: 10px;
+    padding-top: 55px;
+    color: #727272; }
+    .poloska-text-num {
+      height: 10px;
+      padding-top: 55px;
+      color: white;
+      margin-bottom: 55px;
+      margin-left: 15px; }
+
+.poloska-div {
+  padding-bottom: 20px;
+  width: 630px;
+  margin-bottom: 35px;
+  color: #727272;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0; }
+
+/*# sourceMappingURL=s.css.map */

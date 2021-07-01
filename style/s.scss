@@ -1,0 +1,204 @@
+$white:#FFFFFF;
+.body,html{font-family: 'Playfair Display', serif;}
+.header{background-image: url(../img/bgc.png);
+height: 960px;}
+
+.nav-bar{
+    
+    width: 1760px;
+    display: flex;
+    margin: 0 auto; 
+    justify-content: space-between;
+    &-logo{
+        margin-top: 30px;
+    }
+    &-list{
+        list-style-type: none;
+        margin-top: 35px;
+        display: flex;
+        font-size: 20px;
+        &-items{
+        margin-left: 56px;
+        }
+        &-links {
+        color: $white;
+        font-weight: 400;    
+        border-bottom: 2px solid transparent; 
+        transition: 0.2s;
+        &:hover{
+            border-bottom: 2px solid white;
+            cursor: pointer;
+        } 
+        &-itemss{
+            margin-top: 270px;
+            } 
+    }
+    
+
+}}
+.nav-bar-button{
+    margin-top: 25px;
+    &-no-div{
+        width: 183px;
+        height: 44px;
+        border-radius: 50px;
+        border: 0;
+        background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+        color: white;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0 auto;
+    &-text {
+        padding-top: 170px;
+        & h1 {
+            font-weight: 700;
+            font-size: 64px;
+            color: $white;
+            width: 800px;
+            line-height: 140%;
+        }
+    }
+    &-block{
+        
+        width: 500px;
+        height: 110px;
+    &-list{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    &-item{
+        width: 100px;                                                                                                                                                                  
+        height: 110px;
+        background-color: #121212;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    &-num{
+        margin-top: 25px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    &-wor{
+        
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+    }
+    }
+    }
+    }
+
+    
+}
+.about{ 
+    background-color:#121212;
+    height: 130px;
+    &-button{
+    margin-left: 50px;
+    margin-top: 43px;
+    width: 169px;
+    height: 44px;
+    border-radius: 50px;
+    border: 0;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    
+     }
+}
+.students{
+    margin-left: 80px;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    &-all{
+        display: flex;
+        justify-content: space-between;
+    &-wor{
+        color: rgb(114, 114, 114);
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &-num{
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+    /* первый див*/
+    }
+    }
+    &-finished{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    &-wor{
+            color: rgb(114, 114, 114);
+            font-size: 16px;
+            font-weight: 400;
+        }
+    &-num{  
+            margin-left: 20px;
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+    /* второй див*/
+    }
+    
+}
+}
+.poloska{
+    height: 6px;
+    width: 630px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    margin-left: 80px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    &-white{
+    width: 240px;
+    height: 6px;
+    background-color:white;
+    margin-top: 93px;
+    margin-left: 124px;
+
+    }
+    &-text{
+       
+        height: 10px;
+        padding-top: 55px;
+        color: rgb(114, 114, 114);
+        
+    &-num{
+       
+        height: 10px;
+        padding-top: 55px;
+            color: white;
+            margin-bottom: 55px;
+            margin-left: 15px;
+    }
+        }
+}
+.poloska-div{
+    padding-bottom: 20px;
+ 
+    width: 630px;
+    margin-bottom: 35px;
+    color: rgb(114, 114, 114);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}

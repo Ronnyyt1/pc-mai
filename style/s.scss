@@ -1,6 +1,6 @@
 $white:#FFFFFF;
 .body,html{font-family: 'Playfair Display', serif;}
-.header{background-image: url(../img/bgc.png);
+.header{background-image: url(../img/main-screen__bgc.png);
 height: 960px;}
 
 .nav-bar{
@@ -47,10 +47,15 @@ height: 960px;}
         color: white;
     }
 }
-
-.container {
+.div-container{
+    width: 1170px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
+
+}
+.container {
+   
     width: 1170px;
     margin: 0 auto;
     &-text {
@@ -201,4 +206,10 @@ height: 960px;}
     display: flex;
     justify-content: space-between;
     margin-top: 0;
+}
+.about-main-harn{
+    height: 6600px;
+    background-image: url(../img/bgc.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }

@@ -3,19 +3,25 @@
   font-family: 'Playfair Display', serif; }
 
 .header {
-  background-image: url(../img/bgc.png);
+  background-image: url(../img/main-screen__bgc.png);
   height: 960px; }
 
 .nav-bar {
   width: 1760px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   .nav-bar-logo {
     margin-top: 30px; }
   .nav-bar-list {
     list-style-type: none;
     margin-top: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 20px; }
     .nav-bar-list-items {
@@ -24,6 +30,7 @@
       color: #FFFFFF;
       font-weight: 400;
       border-bottom: 2px solid transparent;
+      -webkit-transition: 0.2s;
       transition: 0.2s; }
       .nav-bar-list-links:hover {
         border-bottom: 2px solid white;
@@ -41,9 +48,17 @@
     background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
     color: white; }
 
-.container {
+.div-container {
+  width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.container {
   width: 1170px;
   margin: 0 auto; }
   .container-text {
@@ -59,15 +74,24 @@
     height: 110px; }
     .container-block-list {
       list-style-type: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: space-between;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
       padding: 0; }
       .container-block-list-item {
         width: 100px;
         height: 110px;
         background-color: #121212;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-top: 20px; }
         .container-block-list-item-num {
           margin-top: 25px;
@@ -101,12 +125,21 @@
 .students {
   margin-left: 80px;
   margin-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 250px; }
   .students-all {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .students-all-wor {
       color: #727272;
       font-size: 16px;
@@ -118,8 +151,12 @@
       /* первый див*/ }
   .students-finished {
     margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
     .students-finished-wor {
       color: #727272;
       font-size: 16px;
@@ -137,9 +174,13 @@
   background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
   margin-left: 80px;
   margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  align-content: center; }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center; }
   .poloska-white {
     width: 240px;
     height: 6px;
@@ -162,8 +203,18 @@
   width: 630px;
   margin-bottom: 35px;
   color: #727272;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 0; }
+
+.about-main-harn {
+  height: 6600px;
+  background-image: url(../img/bgc.png);
+  background-position: center;
+  background-repeat: no-repeat; }
 
 /*# sourceMappingURL=s.css.map */
